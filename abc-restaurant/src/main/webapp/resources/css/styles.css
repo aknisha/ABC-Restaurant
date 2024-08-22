@@ -1,0 +1,17 @@
+.hero-section {
+    background: url('resources/images/hero.jpg') no-repeat center center/cover;
+    padding: 150px 0;
+}
+
+.hero-section .btn-primary {
+    background-color: #ff7f50;
+    border-color: #ff7f50;
+}
+
+.about-section img {
+    border-radius: 5px;
+}
+
+.footer {
+    background-color: #f8f9fa;
+}
