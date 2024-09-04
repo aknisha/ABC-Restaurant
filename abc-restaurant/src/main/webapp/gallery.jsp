@@ -19,7 +19,7 @@
             width: 95%;
             height: auto;
             border-radius: 10px;
-        	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        	box-shadow: 0 4px 8px rgba(233, 226, 230, 0.8);
         	margin-bottom: 30px;
         }
         

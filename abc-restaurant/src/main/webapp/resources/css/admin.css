@@ -1,0 +1,39 @@
+.container {
+	margin-top: 50px;
+	max-width: 600px;
+}
+
+.form-group {
+	margin-bottom: 15px;
+}
+
+.btn-primary {
+	width: 100%;
+}
+
+.menu-item {
+	border: 1px solid #ddd;
+	border-radius: 5px;
+	padding: 15px;
+	margin-bottom: 20px;
+	text-align: center;
+}
+
+.menu-item img {
+	max-width: 100%;
+	height: auto;
+	margin-bottom: 10px;
+}
+
+.menu-item h5 {
+	margin-bottom: 10px;
+	font-weight: bold;
+}
+
+.menu-item p {
+	margin-bottom: 5px;
+}
+
+.action-buttons {
+	margin-top: 15px;
+}

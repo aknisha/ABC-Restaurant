@@ -86,8 +86,8 @@
                     </p>
                 </div>
                 <div class="col-md-6">
-                    <p><img src="resources/images/interior.jpg" alt="About ABC Restaurant"></p><br>
-                    <p><img src="resources/images/kitchen.jpg" alt="About ABC Restaurant"></p>
+                    <p><img src="resources/images/C1.jpg" alt="About ABC Restaurant"></p><br>
+                    <p><img src="resources/images/C2.jpg" alt="About ABC Restaurant"></p>
                 </div>
              
             </div>

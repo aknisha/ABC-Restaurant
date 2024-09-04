@@ -9,29 +9,36 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link href="resources/css/styles.css" rel="stylesheet">
     <style>
+    	
         .menu-section {
             padding: 60px 0;
         }
+        
         .menu-item {
             margin-bottom: 30px;
         }
+        
         .menu-item img {
             max-width: 100%;
             height: auto;
             border-radius: 5px;
         }
+        
         .menu-item h5 {
             font-size: 1.25rem;
             margin-top: 10px;
         }
+        
         .menu-item p {
             font-size: 1rem;
             color: #555;
         }
+        
         .menu-item .price {
             font-weight: bold;
             color: #ff7f50;
         }
+        
         .navbar {
 			background-color: #000 !important;
 		}
@@ -39,6 +46,7 @@
 		.footer {
 			background-color: #000 !important;	
 		}
+		
     </style>
 </head>
 <body>
@@ -71,7 +79,7 @@
                 <c:forEach var="menuItem" items="${menuItems}">
                     <div class="col-md-4 menu-item">
                         <div class="card">
-                            <img src="${menuItem.imagePath}" class="card-img-top" alt="${menuItem.title}">
+                            <img src="${pageContext.request.contextPath}/uploads/${menuItem.imagePath}" class="card-img-top" alt="${menuItem.title}">
                             <div class="card-body">
                                 <h5 class="card-title">${menuItem.title}</h5>
                                 <p class="card-text">${menuItem.description}</p>

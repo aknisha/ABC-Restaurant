@@ -7,47 +7,9 @@
 <title>Add Menu Item</title>
 <link rel="stylesheet"
 	href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-<style>
-.container {
-	margin-top: 50px;
-	max-width: 600px;
-}
-
-.form-group {
-	margin-bottom: 15px;
-}
-
-.btn-primary {
-	width: 100%;
-}
-
-.menu-item {
-	border: 1px solid #ddd;
-	border-radius: 5px;
-	padding: 15px;
-	margin-bottom: 20px;
-	text-align: center;
-}
-
-.menu-item img {
-	max-width: 100%;
-	height: auto;
-	margin-bottom: 10px;
-}
-
-.menu-item h5 {
-	margin-bottom: 10px;
-	font-weight: bold;
-}
-
-.menu-item p {
-	margin-bottom: 5px;
-}
-
-.action-buttons {
-	margin-top: 15px;
-}
-</style>
+<link rel="stylesheet"
+	href="resources/css/admin.css">
+	
 </head>
 <body>
 	<div class="container">
@@ -57,7 +19,8 @@
 				<c:otherwise>Add Menu Item</c:otherwise>
 			</c:choose>
 		</h1>
-		<form action="MenuManagement?action=${not empty menuItem ? 'update' : 'add'}"
+		<form
+			action="MenuManagement?action=${not empty menuItem ? 'update' : 'add'}"
 			method="post" enctype="multipart/form-data">
 			<c:if test="${not empty menuItem}">
 				<input type="hidden" name="id" value="${menuItem.id}">

@@ -10,8 +10,38 @@
   	<description></description>
   	<servlet-class>com.abc.controller.MenuManagementController</servlet-class>
   </servlet>
+  <servlet>
+  	<servlet-name>MenuController</servlet-name>
+  	<display-name>MenuController</display-name>
+  	<description></description>
+  	<servlet-class>com.abc.controller.MenuController</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>RegistrationController</servlet-name>
+  	<display-name>RegistrationController</display-name>
+  	<description></description>
+  	<servlet-class>com.abc.controller.RegistrationController</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>LoginController</servlet-name>
+  	<display-name>LoginController</display-name>
+  	<description></description>
+  	<servlet-class>com.abc.controller.LoginController</servlet-class>
+  </servlet>
   <servlet-mapping>
   	<servlet-name>MenuManagementController</servlet-name>
   	<url-pattern>/MenuManagement</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>MenuController</servlet-name>
+  	<url-pattern>/MenuController</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>RegistrationController</servlet-name>
+  	<url-pattern>/RegistrationController</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>LoginController</servlet-name>
+  	<url-pattern>/LoginController</url-pattern>
   </servlet-mapping>
 </web-app>

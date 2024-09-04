@@ -12,6 +12,11 @@
 <link href="resources/css/styles.css" rel="stylesheet">
 <style>
 
+	.body{
+		padding-top: 110px;
+	}
+	
+
 	.hero-section {
 		background: url('resources/images/bg.jpg') no-repeat center center/cover;
 	}
@@ -45,7 +50,7 @@
 
 <body>
 	<!-- Navbar -->
-	<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+	<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
 		 <img src="resources/images/logo.png" width="250" height="100"
 			alt="ABC Restaurant">
 		
@@ -59,7 +64,7 @@
 			<ul class="navbar-nav ml-auto">
 				<li class="nav-item active"><a class="nav-link" href="index.jsp">Home</a></li>
 				<li class="nav-item"><a class="nav-link" href="aboutUs.jsp">About Us</a></li>
-				<li class="nav-item"><a class="nav-link" href="menu.jsp">Menu</a></li>
+				<li class="nav-item"><a class="nav-link" href="MenuController">Menu</a></li>
 				<li class="nav-item"><a class="nav-link" href="gallery.jsp">Gallery</a></li>
 				<li class="nav-item"><a class="nav-link" href="reservation.jsp">Reservation</a></li>
 				<li class="nav-item"><a class="nav-link" href="contactUs.jsp">Contact Us</a></li>
